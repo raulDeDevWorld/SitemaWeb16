@@ -410,12 +410,12 @@ const PDFView = ({ click }) => {
                                     <Text style={styles.key}>FECHA</Text>
                                     <Text style={styles.key}>NUMERO</Text>
                                 </View>
-                                <View style={styles.containerKeyValueTwo}>
+                                <View style={styles.viewKeyValue}>
                                     <Text style={styles.value}></Text>
                                     <Text style={styles.value}></Text>
                                 </View>
                             </View>
-                            <View style={styles.viewKeyValueTwo}>
+                            <View style={styles.viewKeyValue}>
                                 <View style={styles.viewKeyValue}>
                                     <Text style={styles.value}></Text>
                                     <Text style={styles.value}></Text>
@@ -492,13 +492,13 @@ const PDFView = ({ click }) => {
                             <Text style={styles.valueElaborador}>FIRMA Y SELLO:</Text>
                             <Text style={styles.valueElaboradorLine}></Text>
                         </View>
-                        <View style={styles.viewKeyValueTwo}>
+                        <View style={styles.viewKeyValue}>
                             <Text style={styles.valueElaborador}>NOMBRE:</Text>
                             <Text style={styles.valueElaboradorLine}></Text>
                             <Text style={styles.valueElaborador}>NOMBRE:</Text>
                             <Text style={styles.valueElaboradorLine}>{pdfData["MC-NOMBRE"] && pdfData["MC-NOMBRE"]}</Text>
                         </View>
-                        <View style={styles.viewKeyValueTwo} >
+                        <View style={styles.viewKeyValue} >
                             <Text style={styles.valueElaborador}>FECHA:</Text>
                             <Text style={styles.valueElaboradorLine}>{getDayMonthYear()}</Text>
                             <Text style={styles.valueElaborador}>FECHA:</Text>
@@ -516,13 +516,13 @@ const PDFView = ({ click }) => {
                             <Text style={styles.valueElaboradorLine}></Text>
                             <Text style={styles.valueElaborador}></Text>
                         </View>
-                        <View style={styles.viewKeyValueTwo}>
+                        <View style={styles.viewKeyValue}>
                             <Text style={styles.valueElaborador}></Text>
                             <Text style={styles.valueElaborador}>NOMBRE:</Text>
                             <Text style={styles.valueElaboradorLine}>Logístics Gear</Text>
                             <Text style={styles.valueElaborador}></Text>
                         </View>
-                        <View style={styles.viewKeyValueTwo} >
+                        <View style={styles.viewKeyValue} >
                             <Text style={styles.valueElaborador}></Text>
                             <Text style={styles.valueElaborador}>FECHA:</Text>
                             <Text style={styles.valueElaboradorLine}>{getDayMonthYear()}</Text>
